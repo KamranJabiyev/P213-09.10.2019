@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex_parent {
+    width: 1170px;
+    margin: 0 auto;
+    height: 300px;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    /* align-items: center */
+    /* justify-content: space-evenly; */
+    align-content: space-around
+}
+
+.red {
+    min-height: 100px;
+    width: 25%;
+    background: red;
+}
+
+.green {
+    min-height: 100px;
+    width: 25%;
+    background: green;
+}
+
+.blue {
+    min-height: 100px;
+    width: 25%;
+    background: blue;
+}
+
+.gray {
+    min-height: 100px;
+    width: 25%;
+    background: gray;
+}
